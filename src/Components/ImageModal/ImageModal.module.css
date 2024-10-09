@@ -1,0 +1,13 @@
+.infoList {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    color: darkolivegreen;
+    padding: 0;
+}
+
+.listElem {
+    border: 1px solid teal;
+    border-radius: 16px;
+    padding: 6px 20px;
+}
