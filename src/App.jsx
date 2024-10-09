@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import './App.css';
-import SearchBar from './Components/SearchBar/SearchBar';
-import ImageGallery from './Components/ImageGallery/ImageGallery';
+import SearchBar from './components/SearchBar/SearchBar';
+import ImageGallery from './components/ImageGallery/ImageGallery';
 import axios from 'axios';
 import { ThreeDots } from 'react-loader-spinner';
 import toast from 'react-hot-toast';
-import LoadMoreBtn from './Components/LoadMoreBtn/LoadMoreBtn';
-import ErrorMessage from './Components/ErrorMessage/ErrorMessage';
-import ImageModal from './Components/ImageModal/ImageModal';
+import LoadMoreBtn from './components/LoadMoreBtn/LoadMoreBtn';
+import ErrorMessage from './components/ErrorMessage/ErrorMessage';
+import ImageModal from './components/ImageModal/ImageModal';
 
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
